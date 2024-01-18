@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#6A9C93" />
+  <link rel="canonical" href="https:&#x2F;&#x2F;morgana-lang.github.io&#x2F;" />
+
+  <title>
+     Morgana 
+  </title>
+
+  <link rel="stylesheet" href="https://morgana-lang.github.io/base.css" />
+  
+
+  <link rel="icon" type="image/png" href="https://morgana-lang.github.io/favicon.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="https://morgana-lang.github.io/apple-touch-icon.png" />
+</head>
+<body>
+  <nav class="nav">
+	<div class="nav-container">
+		<div class="nav-title">
+			<a class="p-name" href="https:&#x2F;&#x2F;morgana-lang.github.io">Morgana</a>
+		</div>
+		<ul>
+			
+			<li>
+				<a href="https:&#x2F;&#x2F;www.github.com&#x2F;morgana-lang&#x2F;core">gh</a>
+			</li>
+			
+			<li>
+				<a href="&#x2F;docs">docs</a>
+			</li>
+			
+			<li>
+				<a href="&#x2F;contacts">contacts</a>
+			</li>
+			
+		</ul>
+	</div>
+</nav>
+<div class="container">
+  
+<p class="claim">
+<b class="p-name">Morgana</b> is a metalanguage for language designers: easily define the syntax of your language and its abstract syntax tree, at the same time.
+</p>
+<pre style="background-color:#2b303b;color:#c0c5ce;"><code><span>morg Morgana 
+</span><span>
+</span><span>start Morg 
+</span><span>
+</span><span>node Morg := (
+</span><span>  name: [ Keyword::Morg Identifier ], 
+</span><span>  start_symbol: [ StartStatement ],
+</span><span>  statements: { Statements }
+</span><span>) 
+</span><span>
+</span><span>...
+</span></code></pre>
+<div class="info">
+Based on the simple idea of lifting <a
+href="https://en.wikipedia.org/wiki/Wirth_syntax_notation">wsn</a>-like rules
+to the type level, allows you to generate an entire front-end from a single
+source of truth. Simply write a <i>morg</i> and generate data structures,
+parsers and much more in your preferred programming language.
+</div>
+
+</div>
+  <footer class="footer">
+	<div class="footer-container">
+		
+		<p class="p-name" title="Last built at 2024-01-18 20:40 +00:00">&copy; Brocéliande Laboratories,
+			2023
+		</p>
+		
+	</div>
+</footer>
+</body>
+
+</html>
